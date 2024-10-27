@@ -383,8 +383,9 @@ ul {
 .conteudo img {
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.348);
-    max-width: 100%;   
-    height: auto;  
+    max-width: 100%;
+    height: auto; 
+    margin: 8px 0;
 }
 
 
@@ -394,6 +395,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .conteudo p{
