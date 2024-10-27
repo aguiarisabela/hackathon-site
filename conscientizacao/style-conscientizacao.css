@@ -381,10 +381,10 @@ ul {
 
 
 .conteudo img {
-    width: 30%;
-    max-width: 100%;
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.348);
+    max-width: 100%;   
+    height: auto;  
 }
 
 
@@ -421,8 +421,8 @@ h2{
 }
 
 #cuidados-com-agua .botas-amarelas {
-    max-width: 100%;         /* Para tornar a imagem responsiva */
-    height: auto;            /* Ajuste automático da altura */
+    max-width: 100%;   
+    height: auto;         
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.348);
 }
