@@ -383,7 +383,6 @@ ul {
 .conteudo img {
     width: 30%;
     max-width: 100%;
-    margin-left: 20px;
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.348);
 }
@@ -391,11 +390,10 @@ ul {
 
 .conteudo {
     font-family: "Montserrat", sans-serif;
-    text-indent: 1em;
     text-align: justify;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .conteudo p{
@@ -414,16 +412,19 @@ h2{
 
 #cuidados-com-agua{
     text-align: justify;
-    text-indent: 1em;
 }
 
-#cuidados-com-agua .botas-amarelas{
-    text-align: center;
-    justify-content: center;
+.imagem-container {
     display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+#cuidados-com-agua .botas-amarelas {
+    max-width: 100%;         /* Para tornar a imagem responsiva */
+    height: auto;            /* Ajuste automático da altura */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.348);
-    margin: 8px;
 }
 
 footer {
