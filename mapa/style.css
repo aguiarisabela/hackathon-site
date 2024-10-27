@@ -8,6 +8,68 @@ body {
     background-color: #1a2e40; 
     color: #e0eaf2; 
 }
+.sub-header {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #ecf0f1;
+}
+
+#titulo-subtitulo {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #ecf0f1;
+}
+
+#titulo-subtitulo h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3em;
+    margin: 0;
+    color: #ecf0f1;
+}
+
+#titulo-subtitulo p {
+    font-size: 1.2em;
+    color: #ecf0f1;
+    margin: 10px 0 0;
+}
+
+.menu-topo {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+.menu-topo li {
+    margin: 0 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+.menu-topo li:hover {
+    background-color: #bdc3c7;
+    border-radius: 5px;
+}
+
+.menu-topo li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+
+#titulo-subtitulo{
+    background-color: #16325B;
+}
 
 h1 {
     margin-top: 20px;
@@ -61,4 +123,24 @@ h1 {
 
 .leaflet-marker-icon {
     filter: hue-rotate(180deg) saturate(70%);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #8EACCD;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 95%;
+    font-family: "montserrat",sans-serif;
+}
+
+.participantes {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.participantes li {
+    margin: 0.5em 0;
 }
