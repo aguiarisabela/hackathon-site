@@ -24,6 +24,8 @@ h1 {
     align-items: center;
     font-family: "Montserrat", sans-serif;
     gap: 20px;
+    text-indent: 1em;
+    text-align: left;
 }
 
 
